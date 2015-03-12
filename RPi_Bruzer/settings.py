@@ -22,7 +22,7 @@ SECRET_KEY = '8z518@fmw_&!a$b(74=lj=2x(^db))klvqor6*+zyq)g%f&41g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = []
 
@@ -36,6 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #------RPi-Bruzer apps-------#
+    'beers',
 )
 
 MIDDLEWARE_CLASSES = (
